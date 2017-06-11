@@ -1,4 +1,4 @@
-# Apache Beam example for Tamedia TX 2017
+# Apache Beam Example for Tamedia TX 2017
 
 This repository contains a very simple example pipeline that is using Apache Beam to read a logfile from Google Cloud Storage (GCS) and write it to Google BigQuery (BQ)
 
