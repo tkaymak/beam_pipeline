@@ -12,7 +12,7 @@ To run it successfully there needs to be a bucket in Google Cloud Storage to sto
 
 ### How to run it:
 - Locally:
-`java target/logfiles-bundled-0.1-SNAPSHOT.jar --tempLocation=gs://lcl_dataflow/dataflow --project=plucky-aegis-94413`
+`java target/logfiles-bundled-0.1-SNAPSHOT.jar --tempLocation=gs://lcl_dataflow/dataflow
 
 - Remotely (on Google Cloud Dataflow):
-`java -jar target/logfiles-bundled-0.1-SNAPSHOT.jar --tempLocation=gs://lcl_dataflow/dataflow --runner=DataflowRunner --project=plucky-aegis-94413 --maxNumWorkers=1`
+`java -jar target/logfiles-bundled-0.1-SNAPSHOT.jar --tempLocation=gs://lcl_dataflow/dataflow --runner=DataflowRunner --project=YOUR-GOOGLE-CLOUD-PROJECTID --maxNumWorkers=1`
